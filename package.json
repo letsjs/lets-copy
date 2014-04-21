@@ -1,0 +1,48 @@
+{
+  "name": "lets-copy",
+  "version": "0.0.0",
+  "description": "(S)FTP deployment (syncing) for Lets",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letsjs/lets-copy.git"
+  },
+  "homepage": "https://github.com/letsjs/lets-copy",
+  "bugs": {
+    "url": "https://github.com/letsjs/lets-copy/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "lets",
+    "sftp",
+    "ftp",
+    "deploy",
+    "copy",
+    "clone",
+    "sync"
+  ],
+  "author": "Andreas Hultgren",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.7.0"
+  },
+  "peerDependencies": {
+    "lets": "^0.0.5",
+    "lets-ssh": "^0.0.0",
+    "lets-ftp": "^0.0.0"
+  },
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "lets": "^0.0.5",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "sinon": "^1.9.1",
+    "grunt-cli": "^0.1.13",
+    "chai": "^1.9.1",
+    "grunt": "^0.4.4",
+    "mocha": "^1.18.2",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}
