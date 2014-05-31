@@ -1,6 +1,6 @@
 {
   "name": "lets-copy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "(S)FTP deployment (syncing) for Lets",
   "main": "lib/index.js",
   "repository": {
@@ -29,9 +29,9 @@
     "async": "^0.7.0"
   },
   "peerDependencies": {
-    "lets": "^0.0.5",
-    "lets-ssh": "^0.0.0",
-    "lets-ftp": "^0.0.0"
+    "lets": "0.0.x",
+    "lets-ssh": "0.0.x",
+    "lets-ftp": "0.0.x"
   },
   "devDependencies": {
     "sinon-chai": "^2.5.0",
