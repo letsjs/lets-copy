@@ -21,6 +21,7 @@ module.exports = function (lets) {
     username: 'root',
     password: '****',
     remotePath: '/var/www', // Where your files shall be located
+    localPath: 'src', // Optional. Which folder relative to the current folder, to sync
     revisionFile: '.REVISION' // Optional. Name of the file storing the last synced commit
   });
 
