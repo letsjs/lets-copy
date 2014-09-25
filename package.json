@@ -1,6 +1,6 @@
 {
   "name": "lets-copy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "(S)FTP deployment (syncing) for Lets",
   "main": "lib/index.js",
   "repository": {
